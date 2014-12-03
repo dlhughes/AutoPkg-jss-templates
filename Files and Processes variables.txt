@@ -1,0 +1,10 @@
+  <files_processes>
+    <search_by_path>#path/to/file.txt#</search_by_path>
+    <delete_file>#true/false#</delete_file>
+    <locate_file>#path/to/file.txt#</locate_file>
+    <update_locate_database>#true/false#</update_locate_database>
+    <spotlight_search>#path/to/file.txt#</spotlight_search>
+    <search_for_process>#process name/id#</search_for_process>
+    <kill_process>#true/false#</kill_process>
+    <run_command>#full command to run as root#</run_command>
+  </files_processes>
