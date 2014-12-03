@@ -11,4 +11,6 @@ It was a pain tracking down all of these variables via the api page so there are
 
 There is a recipe templete you can use to make your recipes fill in the blank style. a policy templete and a smart groups templete you can add these variables into.
 
-This is all a work in progress, if i missed or miss identified something let me know.
+Create a policy and smart group templete using the variables you want to be universal. If you have specific needs for individual policy creation for one or two applications that differ from the rest. Make an override file for those and enter all your desired variables in place of the templete. save yourself time, create a templete and direct your recipe to that when it asks for policy and group input. 
+
+This is all a work in progress, i hope it makes sence and helps when figuring out how to deploy autopk to your jss. if i missed or miss identified something let me know.
