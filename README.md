@@ -11,3 +11,4 @@ It was a pain tracking down all of these variables via the api page so there are
 
 There is a recipe templete you can use to make your recipes fill in the blank style. a policy templete and a smart groups templete you can add these variables into.
 
+This is all a work in progress, if i missed or miss identified something let me know.
