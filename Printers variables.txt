@@ -1,0 +1,10 @@
+  <printers>
+    <size>#number of printers#</size>
+    <leave_existing_default/>
+    <printer>
+      <id>#printer id number#</id>
+      <name>#printer name#</name>
+      <action>#install/uninstall#</action>
+      <make_default>#true/false#</make_default>
+    </printer>
+  </printers>
