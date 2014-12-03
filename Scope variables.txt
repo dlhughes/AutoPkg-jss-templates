@@ -1,0 +1,96 @@
+  <scope>
+    <all_computers>#true/false#</all_computers>
+    <computers>
+      <computer>
+        <id>#computer id number#</id>
+        <name>#computer name#</name>
+        <udid>########-####-####-####-############</udid>
+      </computer>
+    </computers>
+    <computer_groups>
+      <computer_group>
+        <id>#group id number#</id>
+        <name>#group name#</name>
+      </computer_group>
+    </computer_groups>
+      <buildings>
+        <building>
+          <id>#building id number#</id>
+          <name>#building name#</name>
+        </building>
+      </buildings>
+      <departments>
+        <department>
+          <id>#department id number#</id>
+          <name>#department name#</name>
+        </department>
+      </departments>
+    
+    <limit_to_users>
+      <user_groups>
+        <user_group>
+          <id>#user group id number#</id>
+          <name>#enter your value#</name>
+        </user_group>
+      </user_groups>
+      </user_groups>
+    </limit_to_users>
+    
+    <limitations>
+      <users>
+        <user>
+          <name>#enter your value#</name>
+        </user>
+      </users>
+      <user_groups>
+        <user_group>
+          <id>#user group id number#</id>
+          <name>#enter your value#</name>
+        </user_group>
+      </user_groups>
+      <network_segments>
+        <network_segment>
+          <id>#segment id#</id>
+          <name>#segment name#</name>
+        </network_segment>
+      </network_segments>
+      <ibeacons/>
+    </limitations>
+    
+    <exclusions>
+    <computers>
+      <computer>
+        <id>#computer id number#</id>
+        <name>#computer name#</name>
+        <udid>########-####-####-####-############</udid>
+      </computer>
+    </computers>
+    <computer_groups>
+      <computer_group>
+        <id>#group id number#</id>
+        <name>#group name#</name>
+      </computer_group>
+    </computer_groups>
+      <buildings>
+        <building>
+          <id>#building id number#</id>
+          <name>#building name#</name>
+        </building>
+      </buildings>
+      <departments>
+        <department>
+          <id>#department id number#</id>
+          <name>#department name#</name>
+        </department>
+      </departments>
+      <users/>
+      <user_groups/>
+      <network_segments>
+        <network_segment>
+          <id>1</id>
+          <name>Main office</name>
+        </network_segment>
+      </network_segments>
+      <ibeacons/>
+    </exclusions>  
+  </scope>
