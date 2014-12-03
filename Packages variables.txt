@@ -1,0 +1,21 @@
+  <package_configuration>
+    <packages>
+      <size>#number of packages#</size>
+      <package>
+        <id>#package id number#</id>
+        <name>#package name.pkg#</name>
+        <action>#Install, Cache, Install Cached#</action>
+        <fut>false</fut>
+        <feu>false</feu>
+        <update_autorun>#true/false#</update_autorun>
+      </package>
+      <package>
+        <id>#package id number#</id>
+        <name>#package name.dmg#</name>
+        <action>#Install, Cache, Install Cached#</action>
+        <fut>false</fut>
+        <feu>false</feu>
+        <update_autorun>#true/false#</update_autorun>
+      </package>
+    </packages>
+  </package_configuration>
