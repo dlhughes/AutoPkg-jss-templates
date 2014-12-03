@@ -1,0 +1,8 @@
+  <reboot>
+    <message>#your restart message#</message>
+    <startup_disk>#Current Startup Disk, Current Startup Disk (No Bless), Netboot, inPlaceOSUpgradeDirectory, Specify Local Startup Disk#</startup_disk>
+    <specify_startup>/volumes/volumeid</specify_startup> #if your are using using the var Specify Local Startup Disk above.
+    <no_user_logged_in>#Do not restart, Restart immediately, Restart if a package or update requires it#</no_user_logged_in>
+    <user_logged_in>#Do not restart, Restart immediately, Restart, Restart if a package or update requires it#</user_logged_in>
+    <minutes_until_reboot>#number of minutes to restart#</minutes_until_reboot>
+  </reboot>
