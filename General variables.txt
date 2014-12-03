@@ -1,0 +1,60 @@
+  <general>
+    <id>#Policy id Number#</id>
+    <name>#Enter a Name#</name>
+    <enabled>#True/False#</enabled>
+    <trigger>#EVENT or USER_INITIATED for self service only#</trigger>
+    <trigger_checkin>#True/False#</trigger_checkin>
+    <trigger_enrollment_complete>#True/False#</trigger_enrollment_complete>
+    <trigger_login>#True/False#</trigger_login>
+    <trigger_logout>#True/False#</trigger_logout>
+    <trigger_network_state_changed>#True/False#</trigger_network_state_changed>
+    <trigger_startup>#True/False#</trigger_startup>
+    <trigger_other>#Enter your value#</trigger_other>
+    <frequency>#Once per Computer, Once Per User, Once every day, Once Every Week, Once Every Month, Ongoing#</frequency>
+    <target_drive>#Path to Drive#</target_drive>
+    <offline>#True/False#</offline>
+    <category>
+      <id>#Category id Number#</id>
+      <name>#Enter your Value#</name>
+    </category>
+    <date_time_limitations>
+      <activation_date>2000-01-01 01:00:00</activation_date>
+      <activation_date_epoch>946710000000</activation_date_epoch>
+      <activation_date_utc>2000-01-01T01:00:00.000-0600</activation_date_utc>
+      <expiration_date>2001-01-02 01:00:00</expiration_date>
+      <expiration_date_epoch>978418800000</expiration_date_epoch>
+      <expiration_date_utc>2001-01-02T01:00:00.000-0600</expiration_date_utc>
+      <no_execute_on>
+        <day>Sun</day>
+        <day>Mon</day>
+        <day>Tue</day>
+        <day>Wed</day>
+        <day>Thu</day>
+        <day>Fri</day>
+        <day>Sat</day>
+      </no_execute_on>
+      <no_execute_start>1:00 AM</no_execute_start>
+      <no_execute_end>1:00 AM</no_execute_end>
+    </date_time_limitations>
+    <network_limitations>
+      <minimum_network_connection>#No Minimum/Ethernet#</minimum_network_connection>
+      <any_ip_address>#ture/false#</any_ip_address>
+      <network_segments>
+        <network_segment>
+          <id>#segment id number#</id>
+          <name>#segment name#</name>
+        </network_segment>
+    </network_limitations>
+    <override_default_settings>
+      <target_drive>#distribution name#</target_drive>
+      <distribution_point>#distro name#</distribution_point>
+      <force_afp_smb>#true/false#</force_afp_smb>
+      <sus>#default/sus name#</sus>
+      <netboot_server>current</netboot_server>
+    </override_default_settings>
+    <network_requirements>#Any/Ethernet#</network_requirements>
+    <site>
+      <id>#Site id Number#</id>
+      <name>#enter your value#</name>
+    </site>
+  </general>
