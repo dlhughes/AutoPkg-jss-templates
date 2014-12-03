@@ -1,0 +1,29 @@
+  <self_service>
+    <use_for_self_service>true</use_for_self_service>
+    <install_button_text>#Enter your variable#</install_button_text>
+    <self_service_description>#Enter your Description text here#</self_service_description>
+    <force_users_to_view_description>#true/false#</force_users_to_view_description>
+    <self_service_icon>
+      <id>10</id>
+      <filename>mzl.pojlhtou.png</filename>
+      <uri>https://yourjssdoman:8443//iconservlet/?id=10</uri>
+    </self_service_icon>
+        <feature_on_main_page>#true/false#</feature_on_main_page>
+    <self_service_categories>
+      <category>
+        <id>#category id number#</id>
+        <name>#category name#</name>
+        <display_in>true</display_in>
+        <feature_in>#true/false#</feature_in>
+      </category>
+      <category>
+        <id>#Category id number#</id>
+        <name>#category name#</name>
+        <display_in>true</display_in>
+        <feature_in>#true/false#</feature_in>
+      </category>
+    </self_service_categories>
+    <notification>#true/false#</notification>
+    <notification_subject>#enter your notification subject text here#</notification_subject>
+    <notification_message>#enter your notification text here#</notification_message>
+  </self_service>
