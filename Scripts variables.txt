@@ -1,0 +1,16 @@
+  <scripts>
+    <size>1</size>
+    <script>
+      <id>#script id number#</id>
+      <name>#script name.sh#</name>
+      <priority>#After/Before#</priority>
+      <parameter4/>#variable#</parameter4>
+      <parameter5/>
+      <parameter6/>
+      <parameter7/>
+      <parameter8/>
+      <parameter9/>
+      <parameter10/>
+      <parameter11/>
+    </script>
+  </scripts>
