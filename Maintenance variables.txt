@@ -1,0 +1,12 @@
+  <maintenance>
+    <recon>#true/false#</recon>
+    <reset_name>#true/false#</reset_name>
+    <install_all_cached_packages>#true/false#</install_all_cached_packages>
+    <heal>#true/false#</heal>
+    <prebindings>#true/false#</prebindings>
+    <permissions>#true/false#</permissions>
+    <byhost>#true/false#</byhost>
+    <system_cache>#true/false#</system_cache>
+    <user_cache>#true/false#</user_cache>
+    <verify>#true/false#</verify>
+  </maintenance>
