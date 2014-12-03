@@ -1,0 +1,6 @@
+  <user_interaction>
+    <message_start>#enter your message text here#</message_start>
+    <allow_users_to_defer>#true/false#</allow_users_to_defer>
+    <allow_deferral_until_utc>2027-02-02T15:01:00.000-0600</allow_deferral_until_utc>
+    <message_finish>#enter your massage text here#</message_finish>
+  </user_interaction>
